@@ -1,0 +1,37 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.task-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.task {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.task.selected {
+  background-color: #4caf50;
+  color: white;
+}
+
+.selected-tasks {
+  margin-top: 20px;
+}
+
+.selected-tasks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.selected-tasks li {
+  margin: 5px 0;
+  font-weight: bold;
+}
